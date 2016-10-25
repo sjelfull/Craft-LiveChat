@@ -26,6 +26,7 @@ First [signup with LiveChat](http://www.livechatinc.com/?a=PV5ClSpB3Ly&utm_sourc
 You can configure the plugin from the Plugin settings screen -OR- set any of the following values before the hook:
 ```twig
 {% set liveChatSettings = {
+    enabled: true,
     licenseNumber: '',
     enabled: false,
     minimizeOnLoad: false,
