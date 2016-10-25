@@ -1,6 +1,6 @@
 # LiveChat plugin for Craft CMS
 
-Premium live chat software and help desk software for business.
+Easily insert and configure the [LiveChat](http://www.livechatinc.com/?a=PV5ClSpB3Ly&utm_source=PP&utm_medium=link&utm_campaign=default_link) widget in Craft.
 
 ![Screenshot](resources/screenshots/plugin_logo.png)
 
@@ -18,12 +18,13 @@ LiveChat works on Craft 2.4.x and Craft 2.5.x.
 
 ## LiveChat Overview
 
--Insert text here-
+LiveChat is a simple online chat solution that allows customer service agents to contact customers directly on their website.
 
 ## Configuring LiveChat
 
+First [signup with LiveChat](http://www.livechatinc.com/?a=PV5ClSpB3Ly&utm_source=PP&utm_medium=link&utm_campaign=default_link) and get your license number.
 You can configure the plugin from the Plugin settings screen -OR- set any of the following values before the hook:
-```
+```twig
 {% set liveChatSettings = {
     licenseNumber: '',
     enabled: false,
