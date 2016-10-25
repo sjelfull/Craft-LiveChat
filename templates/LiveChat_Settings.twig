@@ -1,0 +1,72 @@
+{#
+/**
+ * LiveChat plugin for Craft CMS
+ *
+ * LiveChat Settings.twig
+ *
+ * @author    Fred Carlsen
+ * @copyright Copyright (c) 2016 Fred Carlsen
+ * @link      http://sjelfull.no
+ * @package   LiveChat
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "livechat/css/LiveChat_Style.css" %}
+{% includeJsResource "livechat/js/LiveChat_Script.js" %}
+
+
+{{ forms.lightswitchField({
+    label: 'Enabled',
+    id: 'enabled',
+    name: 'enabled',
+    on: settings['enabled']})
+}}
+
+{{ forms.textField({
+    label: 'License number',
+    instructions: 'Get your license number from the <a href="http://www.livechatinc.com/?a=PV5ClSpB3Ly&utm_source=PP&utm_medium=link&utm_campaign=default_link" target="_blank">LiveChat website.</a>',
+    id: 'licenseNumber',
+    name: 'licenseNumber',
+    value: settings['licenseNumber']})
+}}
+
+{{ forms.lightswitchField({
+    label: 'Open on load',
+    instructions: 'Maximizes the chat window (when using the embedded chat window) or opens the chat window (when using the pop-up window).',
+    id: 'openOnLoad',
+    name: 'openOnLoad',
+    on: settings['openOnLoad']})
+}}
+
+{{ forms.lightswitchField({
+    label: 'Minimize the chat window',
+    instructions: 'Minimizes the chat window (not supported with the pop-up chat window).',
+    id: 'minimizeOnLoad',
+    name: 'minimizeOnLoad',
+    on: settings['minimizeOnLoad']})
+}}
+
+{{ forms.lightswitchField({
+    label: 'Hide chat window',
+    id: 'hideWindow',
+    name: 'hideWindow',
+    on: settings['hideWindow']})
+}}
+
+{{ forms.lightswitchField({
+    label: 'Disable sounds',
+    id: 'disableSounds',
+    name: 'disableSounds',
+    on: settings['disableSounds']})
+}}
+
+{{ forms.lightswitchField({
+    label: 'Chat between groups',
+    instructions: "By default, visitors browsing history is remembered across different groups. If you don't want to display visitors browsing history across different groups, disable this.",
+    id: 'chatBetweenGroups',
+    name: 'chatBetweenGroups',
+    on: settings['chatBetweenGroups'] })
+}}
