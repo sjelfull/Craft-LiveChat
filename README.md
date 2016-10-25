@@ -18,7 +18,7 @@ LiveChat works on Craft 2.4.x and Craft 2.5.x.
 
 ## LiveChat Overview
 
-LiveChat is a simple online chat solution that allows customer service agents to contact customers directly on their website.
+[LiveChat](http://www.livechatinc.com/?a=PV5ClSpB3Ly&utm_source=PP&utm_medium=link&utm_campaign=default_link) is a simple online chat solution that allows customer service agents to contact customers directly on their website.
 
 ## Configuring LiveChat
 
