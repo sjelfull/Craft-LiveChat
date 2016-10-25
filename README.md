@@ -23,7 +23,8 @@ LiveChat works on Craft 2.4.x and Craft 2.5.x.
 ## Configuring LiveChat
 
 You can configure the plugin from the Plugin settings screen -OR- set any of the following values before the hook:
-`{% set liveChatSettings = {
+```
+{% set liveChatSettings = {
     licenseNumber: '',
     enabled: false,
     minimizeOnLoad: false,
@@ -31,12 +32,12 @@ You can configure the plugin from the Plugin settings screen -OR- set any of the
     hideChatWindow: false,
     chatBetweenGroups: true,
     disableSounds: false,
-} %}`
+} %}
+```
 
 ## Using LiveChat
 
-Insert the following snippet right before `</head>` in your template.
-`{% hook 'livechat' %}`
+Insert `{% hook 'livechat' %}` right before `</head>` in your template.
 
 ## LiveChat Roadmap
 
