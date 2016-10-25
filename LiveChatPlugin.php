@@ -35,7 +35,7 @@ class LiveChatPlugin extends BasePlugin
                 $locale   = craft()->language;
                 $settings = isset($context['liveChatSettings']) ? $context['liveChatSettings'] : array();
 
-                /* -- Render the widget code */
+                // Render tracking code
                 $trackingCode = craft()->liveChat->getTrackingCode($settings);
 
                 return $trackingCode;
