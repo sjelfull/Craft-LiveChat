@@ -28,12 +28,11 @@ You can configure the plugin from the Plugin settings screen -OR- set any of the
 {% set liveChatSettings = {
     enabled: true,
     licenseNumber: '',
-    enabled: false,
-    minimizeOnLoad: false,
-    openOnLoad: false,
-    hideChatWindow: false,
     chatBetweenGroups: true,
     disableSounds: false,
+    hideChatWindow: false,
+    minimizeOnLoad: false,
+    openOnLoad: false,
 } %}
 ```
 
