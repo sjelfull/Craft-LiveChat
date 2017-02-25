@@ -2,7 +2,7 @@
 
 Easily insert and configure the [LiveChat](http://www.livechatinc.com/?a=PV5ClSpB3Ly&utm_source=PP&utm_medium=link&utm_campaign=default_link) widget in Craft.
 
-![Screenshot](resources/screenshots/plugin_logo.png)
+![Logo](resources/icon.png)
 
 ## Installation
 
